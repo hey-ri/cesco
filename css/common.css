@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+body,a{ font-family: 'Nanum Gothic', sans-serif; color: #333;}
+
+.wrap{ width: 1360px; margin: 0 auto; position: relative;}
+
+/* 헤더 */
+header{ width: 100%; /* height: 84px; */ margin: 0 auto; background-color: #fff;}
+header h1{ position: absolute; left: 0; top: 17px;}
+header nav{ width: 100%; /* height: 100%; */ display: flex; justify-content: flex-end;}
+header ul.menu{ display: flex; width: 900px; /* height: 100%; */ justify-content: space-between; align-items: center; position: relative; } 
+header ul.menu>li{ width: 16.6666%; height: 100%; text-align: center; /* line-height: 84px; */ }
+header ul.menu>li.color >a{ color: #0077b2;}
+header ul.menu>li> a{ display: block; width: 100%; /* height: 100%; */ height: 84px; font-size: 20px; font-family: 'S-CoreDream-6Bold'; line-height: 84px;}
+header ul.menu>li:hover> a{ color: #0077b2;}
+
+/* 2depth */
+/* ul.sub 가 플렉스가 안산다. 그래서 float left를 주면 해결이 되는데 !important 걸어도 된다 그러면 슬라이드 다운이 안먹는데 그 이유는 display none 이 안먹는것 그래서 !important는 지워주고 제이쿼리에서 플렉스로 살려준다*/
+header ul.menu>li ul.sub{ width: 95%; height: 358px; background-color: #fff; /* display: flex !important; */ justify-content: flex-start; gap: 30px; position: absolute; left: 0; top: 84px; display: none; z-index: 10; padding-left: 45px;}
+header ul.menu>li ul.sub>li{  width: 177px; height: 318px; /* float: left; */}
+header ul.menu>li ul.sub>li>a{ padding: 5px 0; display: block; width: 80%; font-family: 'S-CoreDream-6Bold'; font-size: 18px; line-height: normal; border-top: 1px solid #4f4f4f; box-sizing: border-box; text-align: left; padding-left: 5px;}
+
+
+header ul.menu>li ul.sub>li>ul li{ width: 168px; height: 33px; line-height: 33px; text-align: left;}
+header ul.menu>li ul.sub>li>ul li:hover a{ background: #9cceec;}
+header ul.menu>li ul.sub>li>ul li a{ display: block; width: 100%; height: 100%; border-radius: 10px; font-size: 16px; text-align: left; padding-left: 7px;}
+
+header ul.user{ display: flex; width: 260px; justify-content: space-evenly;}
+header ul.user>li{ line-height: 30px;}
+header ul.user>li> a{ font-size: 15px; font-weight: 500; font-family: 'Noto Sans KR', sans-serif;}
+header ul.user>li:hover> a{ color: #0077b2;}
+
+/* 푸터 윗 부분 슬라이드 */
+.f_top .swiper2 {
+    width: 1185px;
+    height: 50px;
+    margin-left: 122px;
+    background-color: yellow;
+  }
+  .f_top {  width: 100%; height: 50px; background-color: #ea5959; overflow: hidden;}
+  .f_top .wrap{ position: relative;}
+  .f_top p{ line-height: 50px; font-size: 20px; color: #fff; font-weight: bold; width: 122px;}
+  .f_top .swiper2 ul li a{ line-height: 50px; color: #fff;}
+  .f_top .swiper2 ul li a span{ float: right;}
+  .f_top .u_d{ position: absolute; right: 0; top: 15px;}
+  .f_top .u_d img{ margin-right: 5px; cursor: pointer;}
+  .f_top .u_d img:last-child{ margin-right: 0;}
+  
+  /* 푸터 */
+  footer{ background: #fff; }
+  footer .wrap{ padding: 42px 0 32px 0; position: relative;}
+  footer .wrap ul.cate{float: left; width: 132px;}
+  footer .wrap ul.cate:nth-child(2){margin-top: 28px;}
+  footer .wrap ul.cate:nth-child(3){ margin-top: 28px;}
+  /* footer .wrap ul.cate:nth-child(4){ margin-right: 100px;} */
+  footer .wrap ul.cate li{ font-size: 15px; line-height: 1.5;}
+  footer .wrap ul.cate li strong { font-weight: bold; margin-bottom: 3px; display: block;}
+  footer .wrap ul.cate li a{ transition: all .5s;}
+  footer .wrap ul.cate li a:hover{ font-weight: bold;}
+  footer .wrap .con{ float: right;}
+  footer .wrap .con a{ display: inline-block; width: 182px; height: 72px; border-radius: 28px; background-color: #f3f3f3; line-height: 72px; text-align: center; margin-right: 30px; transition: all .5s;}
+  footer .wrap .con a:last-child{ margin-right: 0;}
+  footer .wrap .con a:hover{ background: #cbcbcb; font-weight: bold;}
+  footer .wrap ul.bottom{ clear: both; padding-top: 40px; width: 1036px;}
+  footer .wrap ul.bottom li{ float: left; line-height: 1.9;}
+  footer .wrap ul.bottom li a{ margin-right: 12px; font-weight: bold; font-size: 16px;}
+  footer .wrap ul.bottom li a:hover{ color: #0077b2;}
+  footer .wrap ul.bottom li strong{ font-size: 20px; font-weight: bold; line-height: 1.1;}
+  footer .wrap .img_box{position: absolute; bottom: 15%; right: 0;}
+  footer .wrap .img_box img{ margin-right: 10px; width: 113px;}
+  footer .wrap .img_box img.img_big{ margin-right: 10px; width: 80px;}
+  footer .wrap img:last-child{margin-right: 0;}
+  footer .wrap .copy{ clear: both;}
+  

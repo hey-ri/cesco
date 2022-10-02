@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="세스코">
+    <meta name="keywords" content="벌레, 벌레잡는, 세스코">
+    <meta name="author" content="hyeri">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cesco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/font.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- 팝업창 -->
+    <div class="popup">
+            <div class="contents">
+                <img src="img/popup.PNG" alt="">
+    
+                <div class="buttons">
+                    <div class="notToday">
+                        <input type="checkbox" name="nt" id="nt">
+                        <label for="nt">오늘 하루 보지 않기</label>
+                    </div><!-- //.notToday -->
+                    <button type="button" class="popup_close">닫기</button>
+                </div><!-- //.buttons -->
+            </div>
+        </div>
+    </div><!-- //.popup -->
+
+
+    <!-- 헤더 -->
+    <header>
+        <div class="wrap">
+            <h1><a href="index.html"><img src="img/logo.png" alt="cesco"></a></h1>
+            <!-- 네비 -->
+            <nav>
+                <ul class="menu">
+                    <li><a href="sub1.html">세스코</a>
+                        <ul class="sub">
+                            <li><a href="sub1.html">세스코소개</a>
+                                <ul>
+                                    <li><a href="sub1.html">회사소개</a></li>
+                                    <li><a href="sub1.html">임원소개</a></li>
+                                    <li><a href="sub1.html">CI</a></li>
+                                    <li><a href="sub1.html">오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">세스코서비스</a>
+                                <ul>
+                                    <li><a href="sub1.html">WHY 세스코</a></li>
+                                    <li><a href="sub1.html">해충방제 솔루션</a></li>
+                                    <li><a href="sub1.html">지래해충 솔루션</a></li>
+                                    <li><a href="sub1.html">통합이물분석 서비스</a></li>
+                                    <li><a href="sub1.html">향균안전 솔루션</a></li>
+                                    <li><a href="sub1.html">수질안심관리 솔루션</a></li>
+                                    <li><a href="sub1.html">공기질 안심관리 솔루션</a></li>
+                                    <li><a href="sub1.html">바디케어 솔루션</a></li>
+                                    <li><a href="sub1.html">식품안전 솔루션</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">세스코멤버스</a>
+                                <ul>
+                                    <li><a href="sub1.html">세스코 멤버스 ZONE</a></li>
+                                    <li><a href="sub1.html">지원프로그램</a></li>
+                                    <li><a href="sub1.html">세스코 홈멤버스 ZONE</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">인재채용</a>
+                                <ul>
+                                    <li><a href="sub1.html">인재상</a></li>
+                                    <li><a href="sub1.html">인사제도</a></li>
+                                    <li><a href="sub1.html">직무소개</a></li>
+                                    <li><a href="sub1.html">채용가이드</a></li>
+                                    <li><a href="sub1.html">서비스 컨설턴트 채용</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sub1.html">서비스안내</a>
+                        <ul class="sub">
+                            <li><a href="sub1.html">세스코 가상체험</a></li>
+                            <li><a href="sub1.html">분야별 살펴보기</a>
+                                <ul>
+                                    <li><a href="sub1.html">가정집</a></li>
+                                    <li><a href="sub1.html">요식업 및 서비스업</a></li>
+                                    <li><a href="sub1.html">판매 및 유통업</a></li>
+                                    <li><a href="sub1.html">학교 및 교육시설</a></li>
+                                    <li><a href="sub1.html">의료시설</a></li>
+                                    <li><a href="sub1.html">제조업</a></li>
+                                    <li><a href="sub1.html">숙박업</a></li>
+                                    <li><a href="sub1.html">빌딩 및 공공기관</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sub1.html">세스코광장</a>
+                        <ul class="sub">
+                            <li><a href="sub1.html">세스코 지식인</a>
+                                <ul>
+                                    <li><a href="sub1.html">해충·미생물 정보</a></li>
+                                    <li><a href="sub1.html">생활위생정보</a></li>
+                                    <li><a href="sub1.html">위생관련법</a></li>
+                                    <li><a href="sub1.html">재밌는 곤충 이야기</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">세스코 홍보</a>
+                                <ul>
+                                    <li><a href="sub1.html">TV광고</a></li>
+                                    <li><a href="sub1.html">인쇄광고</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">공지사함</a>
+                                <ul>
+                                    <li><a href="sub1.html">공지사항</a></li>
+                                    <li><a href="sub1.html">이벤트</a></li>
+                                    <li><a href="sub1.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">고객서비스</a>
+                                <ul>
+                                    <li><a href="sub1.html">고객리뷰</a></li>
+                                    <li><a href="sub1.html">우리집 위생 체크</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sub1.html">쇼핑</a></li>
+
+                    <li><a href="sub1.html">고객지원</a>
+                        <ul class="sub">
+                            <li><a href="sub1.html">이용안내</a>
+                                <ul>
+                                    <li><a href="sub1.html">회원가입 안내</a></li>
+                                    <li><a href="sub1.html">서비스가입 안내</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">가입안내</a>
+                                <ul>
+                                    <li><a href="sub1.html">세스코 가입추천</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">제품서비스 안내</a>
+                                <ul>
+                                    <li><a href="sub1.html">방문상담신청</a></li>
+                                    <li><a href="sub1.html">분쟁해결 기준</a></li>
+                                    <li><a href="sub1.html">보증기간 산정 기준</a></li>
+                                    <li><a href="sub1.html">유 무상 처리기준</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">Q&A</a>
+                                <ul>
+                                    <li><a href="sub1.html">Q&A</a></li>
+                                    <li><a href="sub1.html">FAQ</a></li>
+                                    <li><a href="sub1.html">고객의 소리</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sub1.html">MY세스코</a>
+                        <ul class="sub">
+                            <li><a href="sub1.html">서비스정보</a>
+                                <ul>
+                                    <li><a href="sub1.html">계약정보</a></li>
+                                    <li><a href="sub1.html">서비스대금 납부</a></li>
+                                    <li><a href="sub1.html">결제정보</a></li>
+                                    <li><a href="sub1.html">서비스리포트</a></li>
+                                    <li><a href="sub1.html">소득증명서</a></li>
+                                    <li><a href="sub1.html">물질안전보건자료</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">나의활동내역</a>
+                                <ul>
+                                    <li><a href="sub1.html">세스코이용후기</a></li>
+                                    <li><a href="sub1.html">서비스 칭찬하기</a></li>
+                                    <li><a href="sub1.html">묻고 답하기</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub1.html">회원정보 관리</a>
+                                <ul>
+                                    <li><a href="sub1.html">회원정보 관리</a></li>
+                                    <li><a href="sub1.html">회원 탈퇴신청</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="user">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">ID/PW 찾기</a></li>
+                    <li><a href="#">세스코몰</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인 -->
+    <main>
+        <!-- 슬라이드 -->
+        <div class="swiper slide">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide one">
+                <a href="#">
+                    <div class="txt_box">
+                        <strong>바디케어 솔루션</strong>
+                        <p>세스코는<br> 화장실 360 입체 살균시스템으로<br> 여러분을 세균으로부터 보호합니다</p>
+                    </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide two">
+                <a href="#">
+                    <div class="txt_box">
+                        <strong>수질 안심관리 솔루션</strong>
+                        <p>세스코는<br>화장실 360 입체 살균시스템으로<br>여러분을 세균으로부터 보호합니다 </p>
+                    </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide three">
+                <a href="#">
+                    <div class="txt_box">
+                        <strong>공기질 안심관리 솔루션</strong>
+                        <p>사람에게 유해한<br>공기는 모두 찾아서<br>실시간으로 알려드리겠습니다</p>
+                    </div><!-- txt_box -->
+                </a>
+              </li>
+            </ul>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 예약하기 -->
+          <section class="book">
+            <div class="wrap">
+                <div class="where">
+                    <select name="" id="">
+                        <option value="">요식업 및 서비스업</option>
+                        <option value="">가정집</option>
+                        <option value="">판매 및 유통업</option>
+                        <option value="">학교 및 교육시설</option>
+                        <option value="">의료시설</option>
+                        <option value="">제조업</option>
+                        <option value="">숙박업</option>
+                        <option value="">빌딩 및 공공기관</option>
+                    </select>
+                    <p>에서 사용하고 싶어요</p>
+                </div>
+                <div class="what">
+                    <select name="" id="">
+                        <option value="">개미, 바퀴처럼 기어다니는 벌레</option>
+                        <option value="">파리, 나방처럼 날으는 벌레</option>
+                        <option value="">바이러스, 박테리아</option>
+                        <option value="">식품 안전 관리</option>
+                    </select>
+                    <p>을/를 해결하고 싶어요</p>
+                </div>
+            </div>
+            <div class="book_btn">
+                <a href="#">견적 상담하기</a>
+                <a href="#">방문상담예약하기</a>
+            </div>
+          </section><!-- book -->
+
+          <section class="cate wrap">
+            <div class="vr">
+                <a href="#">
+                    <i class="fas fa-vr-cardboard"></i>
+                    <p>세스코 가상체험</p>
+                </a>
+            </div><!-- vr -->
+            <div class="story">
+                <a href="#">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <p>세스코 이야기</p>
+                </a>
+            </div><!-- story -->
+            <div class="check">
+                <a href="#">
+                    <i class="fas fa-house-user"></i>
+                    <p>우리집 위생체크</p>
+                </a>
+            </div><!-- check -->
+          </section><!-- cate -->
+
+          <section class="center">
+            <div class="wrap">
+                <img src="img/cody_icon01.png" alt="" class="wo">
+                <img src="img/cody_icon01_1.png" alt="" class="ko">
+                <div class="txt_box">
+                    <strong>세스코 <span>이물분석센터</span></strong>
+                    <p>제품에서 정체를 알 수 없는 이물질이 나왔다면?  </p>
+                    <a href="#"><u><span>국내유일</span>이물전문 분석서비스</u></a>
+                </div>
+                <img src="img/cody_icon02.png" alt="" class="icon">
+            </div>            
+          </section><!-- center -->
+
+          <section class="best">
+            <h2>세스코 렌탈기기 카테고리별 베스트</h2>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <div class="img_box">
+                            <img src="img/p1.png" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/NEW.png" alt="">
+                            <img src="img/SALE.png" alt="">
+                            <h3>(렌탈)세스코 UV파워 공기살균기 Sense me_화이트</h3>
+                            <p>일시불 판매가: 867,000원</p>
+                            <p>렌탈료 총합(5년 계약기간): 1,734,000원 (4개월 방문주기, 36개월 의무사용기간)</p>
+                            <b>월 렌탈료</b>
+                            <span>28,900원</span>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="img_box">
+                            <img src="img/p2.png" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <img src="img/NEW.png" alt="">
+                            <img src="img/SALE.png" alt="">
+                            <h3>(렌탈)세스코 공기살균청정기 듀얼케어 Dual Care_화이트</h3>
+                            <p>일시불 판매가: 2,196,000원 (3년 케어십 서비스 포함)</p>
+                            <p>렌탈료 총합(5년 계약기간): 2,814,000원 (4개월 방문주기, 36개월 의무사용기간)</p>
+                            <b>월 렌탈료</b>
+                            <span>46,900원</span>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="img_box">
+                            <img src="img/p3.png" alt="">
+                            </div>
+                            <div class="txt_box">
+                                <img src="img/NEW.png" alt="">
+                                <img src="img/SALE.png" alt="">
+                                <h3>(렌탈) 세스코 워터_스마트핏 직수 정수기 냉온정_퓨어화이트</h3>
+                                <p>일시불 판매가: 1,076,000원</p>
+                                <p>렌탈료 총합(5년 계약기간): 1,974,000원 (4개월 방문주기, 36개월 의무사용기간)</p>
+                                <b>월 렌탈료</b>
+                                <span>32,900원</span>
+                            </div>
+                    </a>
+                </article>
+            </div>
+          </section>
+
+          <!-- 품목별 상품 -->
+          <section class="product">
+            <h2>세스코 품목별 상품</h2>
+            <div class="container">
+                <a href="#" class="left">
+                    <strong>CESCARE 위생 용품</strong>
+                    <p>상품 더보기 +</p>
+                    <img src="img/cate1.png" alt="">
+                </a>
+                <a href="#" class="right">
+                    <strong>CESCARE 세탁세제 용품</strong>
+                    <p>상품 더보기 +</p>
+                    <img src="img/cate2.png" alt="">
+                </a>
+            </div>
+          </section><!-- product -->
+
+          <!-- 리뷰 -->
+          <section class="r_v">
+            <h2>베스트 리뷰</h2>
+            <div class="container">
+                <div>
+                    <a href="#">
+                        <p>주변 사장님들께 세스코에 대한 이야기를<br> 들으면 반응이 극과 극으로 나뉘는것같아<br>요. 가격대비 별로다, 혹은 꼭 해야한다..저는 주변분들이 여쭤보면 개인적으로 꼭꼭꼭 해야한다 쪽으로 의견을 많이 이야기해주고있어요.</p>
+                        <span>제목 : 파리바게뜨 이용후기</span>
+                        <span>성함: 김보원</span>
+                        <span>작성일 2021-03-15</span>
+                        <span>이용서비스: 개미</span>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                    </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <p>세스코 직원 여러분 감사드립니다. 오늘<br>새벽부터 오셔서 방역 해주시느라 고생<br>많으셨습니다.코로나19로 인해 가장 바쁜 직업이신것 같아요.바쁘신 와중에도 열심히 꼼꼼히 방역해주신 노고에 감사드립니다.~</p>
+                        <span>제목 : 롯데백화점 대전점</span>
+                        <span>성함: 김선희</span>
+                        <span>작성일 2021-02-18</span>
+                        <span>이용서비스: 바이러스 </span>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                    </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <p>울산 남구 선암동 원룸인데 설치 약속시<br>간 잘 지켜주시고 친절하신 대구에서 오<br>신 기사님, 성함을 물어보지 못하였습니다.엘리베이터도 없는 원룸 3층인데 공기살균기 공기청정기 프레쉬제닉까지 꼼꼼히 위치 설정하여 설치하여 주시고 기기 사용 설명도 잘 하여 주셔서 감사드립니다.</p>
+                        <span>제목 : 가정집 원룸</span>
+                        <span>성함: 임수연</span>
+                        <span>작성일 2021-12-02</span>
+                        <span>이용서비스: 바퀴</span>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i> 
+                    </a>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="qna"> 
+            <h2><span>명불허전</span> 세스코 Q&A </h2>
+            <p>해충·바이러스·진드기 등 생활위생 및 세스코서비스에 관한 Q&A </p>
+            <div class="go">
+                <a href="#">BEST Q&A ></a>
+                <a href="#">세스코 Q&A ></a>
+            </div>
+          </section>
+    </main>
+
+    <div class="f_top">
+        <div class="wrap">
+            <p>공지사항</p>
+            <div class="swiper2">
+                <!-- Additional required wrapper -->
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#">세스코 공기살균기 신제품 출시 기념 축하 이벤트<span>2022-01-28</span></a></li>
+                    <li class="swiper-slide"><a href="#">배송 지연 안내<span>2022-02-16</span></a></li>
+                    <li class="swiper-slide"><a href="#">베이비페어 빙고 이벤트 당첨자 안내<span>2022-03-15</span></a></li>
+                    <li class="swiper-slide"><a href="#">세스코 해충방제 서비스 계약 갱신 및 서비스 비용 인상 사전 고지 안내<span>2022-04-05</span></a></li>
+                    <li class="swiper-slide"><a href="#">세스코 듀얼케어 출시 기념 축하 이벤트<span>2022-05-10 </span></a></li>
+                </ul>
+            </div>
+            <div class="u_d">
+                <img src="img/f_top_up.png" alt="" class="up">
+                <img src="img/f_top_down.png" alt="" class="down">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrap">
+            <ul class="cate">
+                <li><strong>고객지원</strong></li>
+                <li><a href="#">고객의소리</a></li>
+                <li><a href="#">무료방문신청</a></li>
+                <li><a href="#">견적상담신청</a></li>
+            </ul>
+            <ul class="cate">
+                <li><a href="#">세스코가입추천</a></li>
+                <li><a href="#">세스코이용안내</a></li>
+                <li><a href="#">즉시계약신청</a></li>
+            </ul>
+            <ul class="cate">
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul class="cate">
+                <li><strong>MY세스코</strong></li>
+                <li><a href="#">서비스정보</a></li>
+                <li><a href="#">나의활동내역</a></li>
+                <li><a href="#">회원정보관리</a></li>
+            </ul>
+            <div class="con">
+                <a href="#">회사소개</a>
+                <a href="#">인재채용</a>
+                <a href="#">세스코 R&D 시스템</a>
+                <a href="#">세스코 식품안전 사이트</a>
+            </div>
+            <ul class="bottom">
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">서비스이용약관</a></li>
+                <li><a href="#">전자금융거래이용약관</a></li>
+                <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                <li><a href="#">고객지원</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+                <li>(주)세스코 (대표이사: 사장 전착혁)</li>
+                <li>주소: 서울시 강동구 상일로 10길 46 세스코 터치센터 (우편번호: 0528)</li>
+                <li>사업자등록번호 : 212-81-05946</li>
+                <li>통신판매업신고번호 : 제 2008-서울강동-0240호</li>
+                <li><strong>고객센터 : 1588-119 (평일: 8:30~18:00, 토요일 8:30~15:00, 일요일/공휴일 휴무)</strong></li>
+                <li><strong>FAX(02)488-1720</strong></li>
+            </ul>
+            <dic class="img_box">
+                <img src="img/f_logo_kolas.png" alt="">
+                <img src="img/f_logo_ilac.png" alt="" class="img_big">
+                <img src="img/f_logo_wa.png" alt="">
+            </dic>
+            <div class="copy">©cesco.ALL RIGHTS RESERVED</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

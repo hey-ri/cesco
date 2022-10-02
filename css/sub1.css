@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+.clearfix::after{ content: ''; display: block; clear: both;}
+
+.wrap{ width: 1360px; margin: 0 auto;}
+.container2{ width: 1128px; margin: 0 auto;}
+
+/* 메인 비주얼 */
+main .main_Visual{ position: relative;}
+main .main_Visual .txt_box{ position: absolute; left: 77px; top: 20%;}
+main .main_Visual .txt_box h2{ font-size: 40px; font-family: 'S-CoreDream-6Bold'; line-height: 1.2;}
+main .main_Visual .txt_box li{ font-size: 20px; font-family: 'S-CoreDream-6Bold'; line-height: 1.3; margin-top: 38px;}
+
+
+main h2{ font-size: 30px; font-family: 'S-CoreDream-5Medium';}
+/* 연혁 */
+main .history{ padding: 120px 0;}
+main .history ul.day{/*   width: 100%; height: 72px; */ margin: 44px 0 76px 0; position: relative;}
+main .history ul.day li{ float: left; border-bottom: 2px solid #222;  box-sizing: border-box; font-size: 25px; width: 282px; height: 72px; text-align: center; line-height: 72px; font-family: 'S-CoreDream-5Medium'; cursor: pointer;}
+main .history ul.day>li.on { color: #0077b2;}
+main .history > ul.day>li.on { border-bottom: transparent; border-bottom: 2px solid #0077ba;}
+
+main .history .tab_con{ position: relative; height: 410px;}
+main .history .tab_con .bottom.on{ display: block;}
+main .history .tab_con .bottom{ position: absolute; background: #fff; display: none;}
+main .history .tab_con .bottom .c_t_box{ margin: 0 177px 0 72px; width: 216px; height: 167px; float: left;}
+main .history .tab_con .bottom .c_t_box strong{ font-size: 60px; font-family: 'S-CoreDream-6Bold'; line-height: 1.3;}
+main .history .tab_con ul.con{ float: left; width: 663px; text-align: left; }
+main .history .tab_con .bottom ul.con li{ font-size: 23px; font-family: 'S-CoreDream-5Medium'; line-height: 2;}
+main .history .tab_con .bottom > a{ display: inline-block; width: 180px; height: 44px; text-align: center; line-height: 44px; font-size: 18px; font-family: 'S-CoreDream-5Medium'; border: 1px solid #222; margin: 44px 0 0 468px;}
+
+/* 미션 */
+main .mission h2{ margin-bottom: 74px;}
+main .mission ul li{ margin-bottom: 64px;}
+main .mission ul li strong{ font-size: 30px; font-family: 'S-CoreDream-5Medium'; text-align: center; display: block; margin-bottom: 25px;}
+main .mission ul li strong span{ color: #0077b2;}
+main .mission ul li p{ font-size: 23px; color: #737373;  text-align: center; line-height: 1.6; font-family: 'Nanum Gothic', sans-serif;}
+
+/* 스마일 위드 세스코 */
+main .promise{ margin: 120px auto;}
+main .promise strong{ font-size: 65px; color: #0077b2; display: block; text-align: center; font-family: 'S-CoreDream-5Medium';}
+main .promise p{ font-size: 26px; line-height: 1.5; text-align: center; margin-top: 40px; font-family: 'S-CoreDream-5Medium';}
+
+/* 핵심가치 */
+main .value{ display: flex; align-items: center;}
+main .value .big{ width: 246px; height: 246px; background-color: #29bab3; color: #fff; box-shadow: 10px 10px 20px rgba(0,0,0,.15); margin-right: 48px; font-size: 50px; line-height: 246px; font-family: 'S-CoreDream-4Regular';}
+main .value div{ width: 167px; height: 167px; background-color: #0077b2; color: #fff; border-radius: 50%; text-align: center; line-height: 167px; margin-left: 26px; font-size: 24px; font-family: 'S-CoreDream-4Regular';}
+
+/* 사업분야 */
+main .cate{ margin: 138px auto 100px auto; }
+main .cate h2{ margin-bottom: 67px;}
+main .cate >div{ display: flex; float: left; margin: 0 5px 64px 0;}
+main .cate >div.no{ margin-right: 0;}
+main .cate >div.no .txt_box strong{ margin: 30px 0 0;}
+main .cate >div img{ width: 123px; height: 132px;}
+main .cate >div .txt_box{ width: 436px; height: 132px; background-color: #f3f3f3;}
+main .cate >div .txt_box strong{ display: block; text-align: center; font-size: 20px; font-family: 'S-CoreDream-5Medium'; margin-bottom: 4px; margin-top: 20px;}
+main .cate >div .txt_box ul li{ text-align: center; line-height: 1.5; font-size: 16px; font-family: 'S-CoreDream-4Regular'; color: #747474;}
